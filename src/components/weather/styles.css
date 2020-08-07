@@ -70,10 +70,14 @@
 }
 
 button {
-  width: 100px;
+  width: 150px;
   margin: 5px;
 }
 
 .active {
   font-weight: bold;
+}
+
+.loader {
+  margin-top: 50px;
 }
