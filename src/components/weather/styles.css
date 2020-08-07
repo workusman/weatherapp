@@ -1,0 +1,79 @@
+.main-banner {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.temp-banner {
+  display: flex;
+  align-items: center;
+}
+
+.current-weather-banner {
+  width: 50%;
+  text-align: left;
+}
+
+.description-banner {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.properties-banner {
+  font-size: 20px;
+}
+
+.forecast-banner {
+  width: 50%;
+}
+
+.card-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+.card-date {
+  width: 37%;
+  text-align: left;
+}
+
+.card-weather {
+  display: flex;
+  align-items: center;
+  width: 37%;
+  text-align: left;
+}
+
+.card-day-morn-temp {
+}
+
+.card-desc {
+  width: 33%;
+  text-align: left;
+}
+
+.temp-converter-btns {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  margin: 5px;
+}
+
+.active {
+  font-weight: bold;
+}
